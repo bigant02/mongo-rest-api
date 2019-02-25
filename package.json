@@ -1,0 +1,26 @@
+{
+  "name": "express-mongo-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "mocha $(find ./ -name '*./test/**/*.test.js') --recursive -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.0",
+    "express-promise-router": "^3.0.3",
+    "mongoose": "^5.4.15",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^5.0.0"
+  }
+}
